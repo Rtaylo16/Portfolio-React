@@ -1,0 +1,143 @@
+{
+  "main": {
+    "name":"Ryan Taylor",
+    "occupation":"Full Stack developer",
+    "description":"I use my background in graphic design to feed my passion as a web developer",
+    "image":"yes.JPG",
+    "bio":"New Full Stack Developer who is obsessed with learning innovative ways to create applications. I am a highly creative individual who loves Graphic Design, Animation and Web Design. I am well organized with a high attention to detail due to my military background.",
+    "contactmessage":"",
+    "email": "Rtaylo211@gmail.com",
+    "phone": "704-564-5010",
+    "address":{
+      "city":"Charlotte",
+      "state":"NC",
+      "zip": "28277"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://docs.google.com/document/d/1UGa6RJK1F1hXqKJ6AfZaeSrVwVAg_9XO2NbHS1LGutA/edit?usp=sharing",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ryan-c-taylor211/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Rtaylo16",
+        "className":"fa fa-github"
+      }
+ 
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University of North Carolina at Charlotte",
+        "degree":"Full Stack Bootcamp",
+        "description":"Six month long bootcamp dedicated to designing and building web and mobile applications. Skills learned: HTML5, CSS, Javascript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handlebars.js & ReactJS."
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2010 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2007 - February 2010",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {"name":"Javascript",
+        "level":"75%"},
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"75%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"60%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      },
+      {
+        "name":"HTML",
+        "level":"80%"
+      },
+      {
+        "name":"Express",
+        "level":"50%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"40%"
+      },
+      {
+        "name":"MYSQL",
+        "level":"40%"
+      },
+      {
+        "name":"After Effects",
+        "level":"65%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Median Col",
+        "category":"Cost of living application that compares cities for people in tech",
+        "image":"home.png",
+        "url":"https://livingcity.herokuapp.com/"
+      },
+      {
+        "title":"Google Book Search",
+        "category":"Book search application that allows user to search books via google books api",
+        "image":"books.png",
+        "url":"https://googlebooks234567.herokuapp.com/"
+      },
+      {
+        "title":"Fitness Tracker",
+        "category":"This application allows the user to input their workout into the form and track their progress",
+        "image":"fitness.png",
+        "url":"https://sleepy-sands-73166.herokuapp.com/"
+      },
+      {
+        "title":"Giftastic",
+        "category":"In this application the user can generate multiple gifs by clicking the buttons on the top of the site",
+        "image":"toon.png",
+        "url":" https://rtaylo16.github.io/GifTastic/"
+      }
+     
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Once you have an innovation culture, even those who are not scientists or engineers - poets, actors, journalists - they, as communities, embrace the meaning of what it is to be scientifically literate. They embrace the concept of an innovation culture. They vote in ways that promote it. They don't fight science and they don't fight technology.",
+        "user":"Neil deGrasse Tyson"
+      },
+      { 
+        "text":"Perhaps the mission of an artist is to interpret beauty to people - the beauty within themselves.",
+        "user":"Langston Hughes"
+      }
+    
+    ]
+  }
+}
