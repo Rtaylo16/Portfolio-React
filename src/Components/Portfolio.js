@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
+
+
+
 
 class Portfolio extends Component {
   render() {
@@ -18,14 +22,16 @@ class Portfolio extends Component {
                 </div>
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
+            <Button variant="contained" color="primary" href={projects.link}>Github Repo</Button>
           </div>
         </div>
+        
       })
     }
 
     return (
       <section id="portfolio">
-
+        
       <div className="row">
 
          <div className="twelve columns collapsed">
@@ -34,7 +40,11 @@ class Portfolio extends Component {
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
+                <div>
+                
+                </div>
             </div>
+            
           </div>
       </div>
    </section>

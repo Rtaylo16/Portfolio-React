@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import icon from './icons/frontendicons.png';
+import icons2 from './icons/servericons.png'
+import icons3 from './icons/cloudicons.png'
+import icons4 from './icons/databaseicons.png'
+
 
 class Resume extends Component {
   render() {
@@ -52,7 +57,16 @@ class Resume extends Component {
 
 				<div className="bars">
 				   <ul className="skills">
-					  {skills}
+             <h1 style= {{textAlign: "center"}} id="h1front">Front end</h1>
+             <div><img src= {icon}/></div>
+					  {/* {skills} */}
+            <h1 style= {{textAlign: "center"}} >Server</h1>
+            <div><img src= {icons2}/></div>
+            <h1 style= {{textAlign: "center"}} >Cloud</h1>
+            <div><img src= {icons3}/></div>
+            <h1 style= {{textAlign: "center"}} >Databases</h1>
+            <div><img src= {icons4}/></div>
+
 					</ul>
 				</div>
 			</div>
